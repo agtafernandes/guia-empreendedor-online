@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Rápido do Empreendedor Online</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('background.png') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+            text-align: center;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.2);
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+        }
+        .container {
+            position: relative;
+            z-index: 1;
+            padding: 2em;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px #000;
+        }
+        .ebook {
+            width: 300px;
+            margin: 2em auto;
+        }
+        .form-box {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 2em auto;
+        }
+        .form-box input {
+            width: 100%;
+            padding: 10px;
+            margin: 0.5em 0;
+            border: none;
+            border-radius: 5px;
+        }
+        .form-box button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: gold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .testimonial {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 1em auto;
+            max-width: 600px;
+            gap: 1em;
+            background-color: rgba(0,0,0,0.4);
+            border-radius: 10px;
+            padding: 1em;
+        }
+        .testimonial img {
+            width: 80px;
+            border-radius: 50%;
+        }
+        .creator {
+            margin-top: 2em;
+        }
+        .creator img {
+            width: 150px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="container">
+        <h1>Guia Rápido do Empreendedor Online</h1>
+        <img src="capa.jpg" class="ebook" alt="Capa do ebook">
+
+        <div class="form-box">
+            <h2>Receba agora no seu WhatsApp</h2>
+            <form>
+                <input type="text" name="nome" placeholder="Seu nome completo" required>
+                <input type="tel" name="whatsapp" placeholder="Seu número de WhatsApp" required>
+                <button type="submit">Quero meu eBook</button>
+            </form>
+        </div>
+
+        <div class="testimonial">
+            <img src="depo1.jpg">
+            <p>“Consegui entender como divulgar meus produtos, muito obrigada!”</p>
+        </div>
+        <div class="testimonial">
+            <img src="depo2.jpg">
+            <p>“Nunca pensei que poderia começar com tão pouco, simplesmente sensacional!”</p>
+        </div>
+        <div class="testimonial">
+            <img src="depo3.jpg">
+            <p>“Prático e direto, ideal pra quem quer vender rápido.”</p>
+        </div>
+
+        <div class="creator">
+            <h3>Por Agta Fernandes</h3>
+            <img src="criadora.jpg" alt="Criadora">
+        </div>
+    </div>
+</body>
+</html>
