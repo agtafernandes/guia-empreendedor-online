@@ -70,26 +70,33 @@
         }
         .testimonial {
             display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .testimonial {
+            display: flex;
             align-items: center;
             justify-content: center;
             margin: 1em auto;
             max-width: 600px;
-            gap: 1em;
-            background-color: rgba(0,0,0,0.4);
-            border-radius: 50px;
-            padding: 1em;
+            gap: 20px;
+            background-color: rgba(0,0,0,0.2);
+            border-radius: 15px;
+            padding: 10px;
         }
         .testimonial img {
-            height: 120px;
-            width: 120px;
+            height: 80px;
+            width: 80px;
             border-radius: 50%;
+            object-fit: cover;
         }
         .creator {
-            margin-top: 2em;
+            margin-top: 3em;
         }
         .creator img {
-            width: 150px;
-            border-radius: 10px;
+            width: 140px;
+            border-radius: 15px;
         }
     </style>
 </head>
